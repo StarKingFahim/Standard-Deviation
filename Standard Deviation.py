@@ -1,4 +1,6 @@
 import csv
+import math
+
 with open('data.csv',newline='')as f:
         reader=csv.reader(f)
         file_data=list(reader)
